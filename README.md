@@ -83,14 +83,15 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 <h3>1.2 Test Monitoring and Control<h3>
 
 In this phase various periodic reports will be generated to reflect the current status of the testing process. In case of major problems, control measures could be taken.
-
+https://github.com/Veronica2024Cristea/OPEN-CART-JIRA/blob/main/Screenshot%202024-10-19%20182152.png
 
 <h3> 1.3 Test Analysis </h3>
 The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
 
 The following test conditions were found: <br>
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+**( https://itfclasses.atlassian.net/jira/software/c/projects/SVC/list?filter=type+%3D+%22Test%22&atlOrigin=eyJpIjoiZTYxMWUyNDNhMmQ5NDQxNGEwNTgzNjBkNzA0OGI4ZjIiLCJwIjoiaiJ9)**
+
 
 <h3>1.4 Test Design</h3>
 
