@@ -37,12 +37,20 @@ The plan identifies the items to be tested, the features to be tested, the types
 </ul>
 
 <h4> 1.1.2 Entry criteria defined </h4>
-
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
-
+<ul>
+  <li>Functional business specifications are defined
+  <li>Roles and responsabilities have been allocated 
+  <li>The test environment is up and running 
+  <li>Initial risks were identified 
+  <li>The test plan was created and test process is detailed for the functionalities in scope
+</ul>    
 <h4> 1.1.3 Exit criteria defined </h4>
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
+<li>All the test cases were executed 
+<li>90% of test cases are passed 
+<li>The remaining defects/bugs have low severity and low priority 
+<li>The project deadline was reached 
+<li>The project budget was reached 
 
 <h4> 1.1.4 Test scope</h4>
 
@@ -58,11 +66,15 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h5>Project risks:</h5>
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+<li>The team does not have the proper knowledge and experience for web testing 
+<li>Test environment not working 
+<li>Short/tight deadlines 
+<li>Due to the company changes we might have levers 
 
 <h5> Product risks: </h5>
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+<li>Taking into account that Admin is  the only module in scope of testing, the rest of them will be at risk of not fulfilling the user needs
+<li>Validation constraints on some of the fields might be too restrictive
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -70,7 +82,8 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 
 <h3>1.2 Test Monitoring and Control<h3>
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+In this phase various periodic reports will be generated to reflect the current status of the testing process. In case of major problems, control measures could be taken.
+
 
 <h3> 1.3 Test Analysis </h3>
 The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
