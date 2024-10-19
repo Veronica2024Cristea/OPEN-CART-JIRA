@@ -8,7 +8,7 @@ Tools used: Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
+The below story **(Categories, Products, Orders,Returns,Gift Vouchers,Adding multiple languages,Creating a multi store, Filters, Marketing**) was created in Jira and describes the functional specifications of the "**Catalog,Sales,Admin interface**" module, for which the final project is performed upon.
 
 **inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
 
