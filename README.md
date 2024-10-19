@@ -10,7 +10,7 @@ Tools used: Jira, Zephyr Squad.
 
 The below story **(Categories, Products, Orders,Returns,Gift Vouchers,Adding multiple languages,Creating a multi store, Filters, Marketing**) was created in Jira and describes the functional specifications of the "**Catalog,Sales,Admin interface**" module, for which the final project is performed upon.
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+*https://github.com/Veronica2024Cristea/OPEN-CART-JIRA/blob/main/Screenshot%202024-10-19%20182152.png***
 
 Here you can find the release that was created for this project:
 
