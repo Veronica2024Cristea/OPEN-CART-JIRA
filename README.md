@@ -103,7 +103,11 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 
 The following elements are needed to be ready before the test execution phase begins:
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+<li>Verify if the test environment is up and running 
+<li>Access to the test environment is given: valid username and valid password 
+<li>Create test suites (Test cycles)
+<li>We prioritize the test cases based on risks and business priority 
+
 
 <h3>1.6. Test Execution </h3>
 
