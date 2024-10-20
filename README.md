@@ -28,7 +28,6 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
-**(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)**
 <ul>
   <li>Project manager: Papa Maria</li> 
   <li>Product owner:Razvan Toader</li>
@@ -56,11 +55,14 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h5> Tests in scope: </h5>
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+link pt toate testele https://itfclasses.atlassian.net/jira/software/c/projects/SVC/list?filter=type+%3D+%22Test%22&atlOrigin=eyJpIjoiZTYxMWUyNDNhMmQ5NDQxNGEwNTgzNjBkNzA0OGI4ZjIiLCJwIjoiaiJ9
 
 <h5>Tests not in scope: </h5>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+<li>Non-functional testing like performance, stress, volume testing are out of scope
+<li>Test process for mobile application is out of scope
+<li>Other browsers except Chrome and Mozilla are out of scope
+<li>Automation testing is beyond scope 
 
 <h4>1.1.5 Risks detected</h4>
 
