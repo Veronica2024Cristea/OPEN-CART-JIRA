@@ -14,7 +14,7 @@ The below story **(Categories, Products, Orders,Returns,Gift Vouchers,Adding mul
 
 Here you can find the release that was created for this project:
 
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+**(https://github.com/Veronica2024Cristea/OPEN-CART-JIRA/blob/main/Raport%20de%20executie%2COPEN%20CART%2C%20Veronica%20Cristea.pdf)**
 
 <h2>Testing process</h2>
 
@@ -127,10 +127,23 @@ The traceability matrix was generated and can be found here: **(inserati aici fi
 
 Test execution chart was generated and can be found below. 
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+**(https://github.com/Veronica2024Cristea/OPEN-CART-JIRA/blob/main/Raport%20de%20executie%2COPEN%20CART%2C%20Veronica%20Cristea.pdf)**
 
 The final report shows that a number 30 tests have failed of a total of 3.
 
 A number of **3** total bugs were found, from which the priority is: 3 are high .
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+**(Concluzia Generală a Testării pentru OpenCart:
+Teste create și executate: Pe baza informațiilor din documentele testate, au fost create mai multe teste pentru principalele funcționalități ale platformei, incluzând gestionarea produselor, categoriilor, voucherelor și comenzilor. Multe dintre aceste teste au fost executate cu succes. Exemple de teste includ verificarea adăugării unui produs nou, aplicarea și eliminarea discounturilor, și modificarea comenzilor​(SVC-65)​(SVC-86)​(Zephyr Test Steps + Exe…).
+
+Acoperirea cerințelor din scop: Aproximativ 80-90% din cerințele din scop au fost acoperite în testele create și executate, incluzând principalele fluxuri de lucru ale platformei OpenCart, cum ar fi gestionarea catalogului de produse, campaniile de marketing, și sistemul de vouchere​(SVC-65).
+
+Funcționalități netestate: În acest moment, nu au fost raportate explicit funcționalități netestate, însă unele funcții mai complexe sau scenarii de integrare cu terți (de exemplu, integrări API) ar putea necesita testări suplimentare pe viitor.
+
+Impactul bugurilor asupra lansării: Bugurile identificate, deși de importanță medie, nu blochează lansarea imediată a produsului în producție. De exemplu, bug-ul legat de utilizarea multiplă a unui voucher cadou poate fi gestionat post-lansare, dar necesită o corecție rapidă pentru a preveni pierderi financiare​(SVC-65). Alte probleme, cum ar fi crearea de campanii fără date obligatorii, pot fi rezolvate ulterior, fără impact imediat​(SVC-86).
+
+Riscuri identificate: Există riscuri moderate de impact asupra veniturilor și operațiunilor, mai ales în ceea ce privește bugurile legate de vouchere și gestionarea comenzilor. Aceste riscuri trebuie mitigate prin corecții rapide post-lansare​(SVC-65)​(SVC-86).
+
+Recomandări pentru lansare: Este recomandată lansarea cu monitorizare continuă pentru probleme legate de vouchere și discounturi, cu implementarea patch-urilor necesare cât mai curând posibil. De asemenea, se recomandă testări suplimentare pentru eventualele scenarii complexe sau interfețele cu terți care nu au fost acoperite complet.
+
+Lessons Learned: La proiectele viitoare, este important să existe o focalizare mai devreme pe testarea unor scenarii de utilizare specifice, cum ar fi reutilizarea codurilor promoționale și fluxurile alternative de lucru în back-end, care pot duce la pierderi financiare sau întreruperi operaționale. Mai multă automatizare în testare ar putea ajuta la detectarea mai rapidă a problemelor înainte de lansare.)**
