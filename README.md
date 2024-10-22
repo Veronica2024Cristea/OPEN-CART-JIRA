@@ -111,7 +111,7 @@ The following elements are needed to be ready before the test execution phase be
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: **(https://github.com/Veronica2024Cristea/OPEN-CART-JIRA/blob/main/Screenshot%202024-10-22%20200834.png)**
 
 Bugs have been created based on the failed tests. The complete bug reports can be found here: **(https://github.com/Veronica2024Cristea/OPEN-CART-JIRA/blob/main/BUGS%20OPEN%20CART.7z)**
 
