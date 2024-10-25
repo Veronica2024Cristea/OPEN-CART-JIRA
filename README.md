@@ -131,18 +131,29 @@ Test execution chart was generated and can be found below.
 The final report shows that a number 30 tests have failed of a total of 3.
 
 A number of **3** total bugs were found, from which the priority is: 3 are high .
+General Testing Conclusion for OpenCart
 
-**(Concluzia Generală a Testării pentru OpenCart:
-Teste create și executate: Pe baza informațiilor din documentele testate, au fost create mai multe teste pentru principalele funcționalități ale platformei, incluzând gestionarea produselor, categoriilor, voucherelor și comenzilor. Multe dintre aceste teste au fost executate cu succes. Exemple de teste includ verificarea adăugării unui produs nou, aplicarea și eliminarea discounturilor, și modificarea comenzilor​(SVC-65)​(SVC-86)​(Zephyr Test Steps + Exe…).
+Tests Created and Executed:
+Based on information from the tested documentation, multiple tests were created and executed for the main functionalities of the OpenCart platform, including product management, categories, vouchers, and orders. Most of these tests were successfully executed. Examples of completed tests include:
 
-Acoperirea cerințelor din scop: Aproximativ 80-90% din cerințele din scop au fost acoperite în testele create și executate, incluzând principalele fluxuri de lucru ale platformei OpenCart, cum ar fi gestionarea catalogului de produse, campaniile de marketing, și sistemul de vouchere​(SVC-65).
+Adding a new product,
+Applying and removing discounts,
+Modifying orders.
+Ref.: (SVC-65), (SVC-86), (Zephyr Test Steps + Exe…).
+Scope Requirements Coverage:
+Approximately 80-90% of the initial requirements were covered, particularly in OpenCart's main workflows, such as product catalog management, marketing campaigns, and voucher system.
 
-Funcționalități netestate: În acest moment, nu au fost raportate explicit funcționalități netestate, însă unele funcții mai complexe sau scenarii de integrare cu terți (de exemplu, integrări API) ar putea necesita testări suplimentare pe viitor.
+Untested Functionalities:
+Although no specific untested functionalities were reported, some complex features or integration scenarios (e.g., APIs) might need additional testing in the future.
 
-Impactul bugurilor asupra lansării: Bugurile identificate, deși de importanță medie, nu blochează lansarea imediată a produsului în producție. De exemplu, bug-ul legat de utilizarea multiplă a unui voucher cadou poate fi gestionat post-lansare, dar necesită o corecție rapidă pentru a preveni pierderi financiare​(SVC-65). Alte probleme, cum ar fi crearea de campanii fără date obligatorii, pot fi rezolvate ulterior, fără impact imediat​(SVC-86).
+Impact of Bugs on Release:
+The identified bugs, though of medium importance, do not block the immediate production release. For example, the issue of multiple uses of a gift voucher requires a prompt fix to prevent financial loss but can be managed post-launch (SVC-65). Other issues, such as creating campaigns without mandatory data, do not have an immediate impact (SVC-86).
 
-Riscuri identificate: Există riscuri moderate de impact asupra veniturilor și operațiunilor, mai ales în ceea ce privește bugurile legate de vouchere și gestionarea comenzilor. Aceste riscuri trebuie mitigate prin corecții rapide post-lansare​(SVC-65)​(SVC-86).
+Identified Risks:
+There are moderate risks to revenue and operations, mainly due to bugs related to vouchers and order management, which require quick post-release fixes (SVC-65), (SVC-86).
 
-Recomandări pentru lansare: Este recomandată lansarea cu monitorizare continuă pentru probleme legate de vouchere și discounturi, cu implementarea patch-urilor necesare cât mai curând posibil. De asemenea, se recomandă testări suplimentare pentru eventualele scenarii complexe sau interfețele cu terți care nu au fost acoperite complet.
+Release Recommendations:
+The release is recommended with continuous monitoring of functionalities related to vouchers and discounts, along with the urgent implementation of necessary patches. Additional tests are also recommended for complex scenarios or third-party interfaces that were not fully covered.
 
-Lessons Learned: La proiectele viitoare, este important să existe o focalizare mai devreme pe testarea unor scenarii de utilizare specifice, cum ar fi reutilizarea codurilor promoționale și fluxurile alternative de lucru în back-end, care pot duce la pierderi financiare sau întreruperi operaționale. Mai multă automatizare în testare ar putea ajuta la detectarea mai rapidă a problemelor înainte de lansare.)**
+Lessons Learned:
+For future projects, an early focus on testing specific usage scenarios, such as the reuse of promo codes and alternative back-end workflows, could prevent financial losses and operational disruptions. Increasing test automation could help identify issues faster before release.
